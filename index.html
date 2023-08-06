@@ -23,11 +23,14 @@
 		h2, a{
 			font-family: Consolas, monospace;
 		}
+		.list{
+			padding-left: 2.5rem
+		}
 		@media (prefers-color-scheme: dark) {
-	    :root{
-	      color-scheme: dark;
-	    }
-	  }
+			:root{
+	      		color-scheme: dark;
+	    	}
+	  	}
 	  @media only screen and (max-width: 800px) {
 	  	h1, h2,a {
 	  		font-family: serif;
@@ -39,6 +42,7 @@
 <main>
 	<h1>Petr Laškevič</h1>
 	<h2>Algorithm visualisations:</h2>
+	<div class="list">
 	<ul>
 		<li>
 			<a href="https://petrlaskevic.github.io/Visualising-BFS-in-HTML-and-JS/">Breadth First search powered maze solver!</a>
@@ -49,6 +53,12 @@
 			<a href="https://petrlaskevic.github.io/Visualising-DFS-in-HTML-and-JS/">Depth First search powered maze solver!</a>
 		</li>
 	</ul>
+	<ul>
+		<li>
+			<a href="https://petrlaskevic.github.io/Visualising-A-Star-in-HTML-and-JS/">A* powered maze solver!</a>
+		</li>
+	</ul>
+	</div>
 </main>
 </body>
 </html>
