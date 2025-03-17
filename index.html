@@ -8,19 +8,24 @@
   	@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
 		body{
 			margin: 0px;
-		}
-		main{
 			margin: 10px;
 			display: flex;
 			align-items: center;
 			flex-direction: column;
+		}
+		main{
+			max-width: 500px;
 		}
 		h1{
 			color: green;
 			width: fit-content;
 			font-family: 'Open Sans', sans-serif;
 		}
-		h2, a{
+		h2{
+			padding-top: 5px;
+			padding-bottom: 10px;
+		}
+		h2, h3, a{
 			font-family: Consolas, monospace;
 		}
 		.list{
@@ -48,6 +53,7 @@
 <main>
 	<h1>Petr Laškevič</h1>
 	<h2>Algorithm visualisations:</h2>
+	<h3>Graph algoritms:</h3>
 	<div class="list">
 	<ul>
 		<li>
@@ -63,6 +69,14 @@
 			<a href="https://petrlaskevic.github.io/Vizualizace-36-Z4-3-Naledi-Dijkstra/">Dijkstra's algorithm maze solver for a shortest path in a weighted graph </a>
 		</li>
 	</ul>
+	</div>
+	<h3>Dynamic programming</h3>
+	<div class="list">
+		<ul>
+			<li>
+				<a href="https://petrlaskevic.github.io/Editacni-Levenshteinova-vzdalenost">Levenshtein (Edit) distance between words using Wagner-Fischer algorithm</a> - used for spell checking
+			</li>
+		</ul>
 	</div>
 </main>
 </body>
